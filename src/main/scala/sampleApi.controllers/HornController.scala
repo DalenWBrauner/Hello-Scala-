@@ -1,16 +1,18 @@
 package sampleApi.controllers
 import org.scalatra.ScalatraServlet
+//import scalate.ScalateSupport
 
+//class HornController extends ScalatraServlet with ScalateSupport {
 class HornController extends ScalatraServlet {
-  get("/") {
+
+  get("/?") {
     "Hello world, I'm HornController!"
   }
 
-  get("/widget") {
-    var horn = """
+  get("/widget/?") {
     <html lang="en">
       <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"></meta>
           <title>Horn inline widget in Javascript</title>
       </head>
       <body>
@@ -24,8 +26,6 @@ class HornController extends ScalatraServlet {
       </body>
       <script type ="text/javascript" src="https://horn.co/widget/scripts/widget.js"></script>
     </html>
-  """
-    horn
   }
 
   get("/widget/:name") {
@@ -33,13 +33,13 @@ class HornController extends ScalatraServlet {
     "Hello, " + name + " channel widget!"
   }
 
-  get("/popup") {
+  get("/popup/?") {
     var horn =
       """
         <html lang="en">
 
         	<head>
-        		<meta charset="UTF-8">
+        		<meta charset="UTF-8"></meta>
         		<title>Horn inline widget in Javascript</title>
         	</head>
 
@@ -62,7 +62,7 @@ class HornController extends ScalatraServlet {
         <html lang="en">
 
         	<head>
-        		<meta charset="UTF-8">
+        		<meta charset="UTF-8"></meta>
         		<title>$name</title>
         	</head>
 
