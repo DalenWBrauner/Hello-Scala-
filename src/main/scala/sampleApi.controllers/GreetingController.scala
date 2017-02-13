@@ -3,11 +3,11 @@ import org.scalatra.ScalatraServlet
 
 class GreetingController extends ScalatraServlet {
   get("/") {
-    "Hello world"
+    "Hello, Scala(tra)!"
   }
 
   get("/:name") {
-    val name = params.getOrElse("name", "world")
-    "Hello " + name
+    val name = params.getOrElse("name", "World")
+    "Hello, " + name + "!"
   }
 }
