@@ -6,10 +6,16 @@ import org.scalatra.ScalatraServlet
 class HornController extends ScalatraServlet {
 
   get("/?") {
-    "Hello world, I'm HornController!"
+    <html lang="en">
+      <body>
+        <a href="/widget">Horn Widget Demo</a>
+        <br></br>
+        <a href="/popup">Horn Popup Demo</a>
+      </body>
+    </html>
   }
 
-  get("/widget/?") {
+  get("/widget/") {
     <html lang="en">
       <head>
         <meta charset="UTF-8"></meta>
@@ -30,12 +36,27 @@ class HornController extends ScalatraServlet {
 
   get("/widget/:name") {
     val name = params.getOrElse("name", "world")
-    "Hello, " + name + " channel widget!"
+    val onClick = "\"co.horn.widget.run({channel: '"+name+"', container: 'horn-div', theme: 'light'})\""
+
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8"></meta>
+        <title>Horn inline widget in Javascript</title>
+      </head>
+      <body>
+        <button onlick={onClick} style="width: 120px">
+          >{name}
+        </button>
+        <button onlick="co.horn.widget.run({channel: 'Banjo', container: 'horn-div', theme: 'light'})" style="width: 120px">
+          >Banjo
+        </button>
+        <div id="horn-div" style="width: 240px; height 150px; border: 2px solid #5bc0de"></div>
+      </body>
+      <script type ="text/javascript" src="https://horn.co/widget/scripts/widget.js"></script>
+    </html>
   }
 
   get("/popup/?") {
-    var horn =
-      """
         <html lang="en">
 
         	<head>
@@ -51,30 +72,31 @@ class HornController extends ScalatraServlet {
         	<script type="text/javascript" src="https://horn.co/widget/scripts/widget.js"></script>
 
         </html>
-      """
-    horn
   }
 
   get("/popup/:name") {
     val name = params.getOrElse("name", "Welcome to Horn!")
-    var horn =
-      s"""
+    val onClick = "co.horn.widget.run({channel: "+name+", theme: 'light'})"
+
         <html lang="en">
 
         	<head>
         		<meta charset="UTF-8"></meta>
-        		<title>$name</title>
+        		<title>{name}</title>
         	</head>
 
         	<body>
-        		<button onclick="co.horn.widget.run({channel: '$name', theme: 'light'})">
-        			Hello, $name!
+        		<button onclick={onClick}>
+        			Hello, {name}!
         		</button>
         	</body>
         	<script type="text/javascript" src="https://horn.co/widget/scripts/widget.js"></script>
 
         </html>
-      """
-    horn
+  }
+
+  notFound {
+    <h1>404</h1>
+      <br>You definitely appear to be lost.</br>
   }
 }
