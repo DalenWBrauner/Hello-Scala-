@@ -1,7 +1,7 @@
 <configuration>
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
-			<pattern>Captain's Log Stardate %date{ISO8601}. [%thread] %level %logger %msg \n
+			<pattern>Log %date{ISO8601}: Thread [%thread], %level %logger %msg \n
 			
 			</pattern>
 		</encoder>
