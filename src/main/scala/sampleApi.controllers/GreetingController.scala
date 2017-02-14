@@ -16,6 +16,8 @@ class GreetingController extends ScalatraServlet {
         <a href="/horn">Horn Demo Pages</a>
         <br></br>
         Try typing your name after the last slash in the URL on various pages.
+        <br></br>
+        <a href="/valentine">Title-Changing Test Page</a>
       </body>
     </html>
   }
@@ -36,5 +38,40 @@ class GreetingController extends ScalatraServlet {
   notFound {
     <h1>404</h1>
     <br>You definitely appear to be lost.</br>
+  }
+
+  get("/valentine") {
+    contentType = "text/html"
+    val heart = "<3"
+    val letsTryThis =
+      """
+      function changeTitle(){
+        document.title = document.getElementById('titleInput').value;
+      }
+      """
+
+    <head>
+      <title>{heart}</title>
+    </head>
+    <body style="background-color:black; color:red">
+      <center>
+        <br></br><br></br><br></br>
+        {heart}{heart}{heart}_____{heart}{heart}{heart}
+        <br>{heart}{heart}{heart}{heart}{heart}{heart}{heart}{heart}{heart}{heart}
+        </br>{heart}{heart}{heart}{heart}{heart}{heart}{heart}{heart}{heart}{heart}
+        <br>{heart}{heart}{heart}{heart}{heart}{heart}{heart}{heart}{heart}
+        </br>{heart}{heart}{heart}{heart}{heart}{heart}{heart}{heart}{heart}
+        <br>{heart}{heart}{heart}{heart}{heart}{heart}{heart}
+        </br>{heart}{heart}{heart}{heart}{heart}
+        <br>{heart}{heart}{heart}
+        </br>{heart}
+        <br></br>
+        <input type="text" id="titleInput" value="" style="text-align:center;"/>
+        <button onclick="changeTitle()">{heart}</button>
+      </center>
+    </body>
+    <script type="text/javascript">
+      {letsTryThis}
+    </script>
   }
 }
