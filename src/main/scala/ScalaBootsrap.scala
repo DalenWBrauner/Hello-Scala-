@@ -8,5 +8,6 @@ class ScalatraBootstrap extends LifeCycle {
     // Mount servlets.
     context.mount(new HornController, "/horn/*")
     context.mount(new GreetingController, "/*")
+    context.mount(new ScalateController, "/scalate/*")
   }
 }
