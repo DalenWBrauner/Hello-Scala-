@@ -1,6 +1,9 @@
 import ScalateKeys._
+import twirl.sbt.TwirlPlugin._
 
 val ScalatraVersion = "2.2.2"
+
+Twirl.settings
 
 libraryDependencies ++= Seq(
   "org.scalatra" %% "scalatra" % ScalatraVersion,
@@ -11,4 +14,5 @@ libraryDependencies ++= Seq(
   "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016",
   "ch.qos.logback" % "logback-classic" % "1.0.1")
 
+//seq(Twirl.settings: _*)
 Seq(webSettings :_*)

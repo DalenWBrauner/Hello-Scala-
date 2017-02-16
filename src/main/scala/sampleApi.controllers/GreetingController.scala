@@ -1,9 +1,7 @@
 package sampleApi.controllers
 import org.scalatra.ScalatraServlet
 import org.slf4j.{Logger, LoggerFactory}
-//import scalate.ScalateSupport
 
-//class GreetingController extends ScalatraServlet with ScalateSupport {
 class GreetingController extends ScalatraServlet {
   val logger = LoggerFactory.getLogger(getClass)
   logger.info("GreetingController appears operational.")

@@ -1,8 +1,6 @@
 package sampleApi.controllers
 import org.scalatra.ScalatraServlet
-//import scalate.ScalateSupport
 
-//class HornController extends ScalatraServlet with ScalateSupport {
 class HornController extends ScalatraServlet {
 
   get("/?") {
