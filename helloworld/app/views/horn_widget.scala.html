@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Horn inline widget in Javascript</title>
+	</head>
+
+	<body>
+		<button onclick="co.horn.widget.run({channel: 'WidgetChannel', container: 'horn-div', theme: 'light'})" style="width: 120px">
+			>WidgetChannel
+		</button>
+		<button onclick="co.horn.widget.run({channel: 'Banjo', container: 'horn-div', theme: 'light'})" style="width: 120px">
+			>Banjo
+		</button>
+		<div id="horn-div" style="width: 240px; height: 150px; border: 2px solid #5bc0de"></div>
+	</body>
+	<script type="text/javascript" src="https://horn.co/widget/scripts/widget.js"></script>
+
+</html>
