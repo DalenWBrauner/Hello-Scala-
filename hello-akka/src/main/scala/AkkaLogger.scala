@@ -10,6 +10,7 @@ import scala.concurrent.duration._
 case object LogRequest
 case class LogResponse(message: String)
 case class LogThis(who:Int, what: String)
+case object LogClear
 
 // Actor Classes
 
@@ -17,7 +18,8 @@ class Logger extends Actor {
   var contents = ""
 
   def receive = {
-    case LogRequest      => sender ! LogResponse(contents)
+    case LogClear => contents = ""
+    case LogRequest => sender ! LogResponse(contents)
     case LogThis(who, what) => {
       val logDate = java.time.LocalDate.now
       val logTime = java.time.LocalTime.now

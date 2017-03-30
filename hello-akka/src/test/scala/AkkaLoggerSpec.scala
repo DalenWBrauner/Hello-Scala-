@@ -32,4 +32,24 @@ class AkkaLoggerSpec(_system: ActorSystem)
     logger ! LogRequest
     expectMsgType[LogResponse].message.toString should include("testkit")
   }
+
+  it should "be able to clear the log" in {
+    val logger = system.actorOf(Props[Logger], "logger2")
+    val arbitraryID = 0
+
+    // Check for testkit only
+    logger ! LogThis(arbitraryID,"testkit")
+    logger ! LogRequest
+    expectMsgType[LogResponse].message.toString should include("testkit")
+    logger ! LogRequest
+    expectMsgType[LogResponse].message.toString should not include("something else")
+
+    // Check that testkit is gone
+    logger ! LogClear
+    logger ! LogThis(arbitraryID,"something else")
+    logger ! LogRequest
+    expectMsgType[LogResponse].message.toString should not include("testkit")
+    logger ! LogRequest
+    expectMsgType[LogResponse].message.toString should include("something else")
+  }
 }
