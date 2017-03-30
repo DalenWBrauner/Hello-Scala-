@@ -22,7 +22,7 @@ class AkkaLoggerSpec(_system: ActorSystem)
     val logger = TestActorRef(Props[Logger])
     val arbitraryID = 0
     logger ! LogThis(arbitraryID,"testkit")
-    logger.underlyingActor.asInstanceOf[Logger].contents should contain("testkit")
+    logger.underlyingActor.asInstanceOf[Logger].contents should include("testkit")
   }
 
   it should "be able to receive the log" in {
@@ -30,6 +30,6 @@ class AkkaLoggerSpec(_system: ActorSystem)
     val arbitraryID = 0
     logger ! LogThis(arbitraryID,"testkit")
     logger ! LogRequest
-    expectMsgType[LogResponse].message.toString should contain("testkit")
+    expectMsgType[LogResponse].message.toString should include("testkit")
   }
 }
