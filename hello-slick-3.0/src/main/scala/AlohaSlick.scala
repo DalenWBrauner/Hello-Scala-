@@ -9,78 +9,70 @@ import slick.backend.DatabasePublisher
 import slick.driver.H2Driver.api._
 
 object AlohaSlick extends App {
-  println("a")
+
+  def timestamp(): String = {
+    val logDate = java.time.LocalDate.now
+    val logTime = java.time.LocalTime.now
+    s"$logDate @ $logTime"
+  }
 
   // Instantiate Database
+  print("Instantiating database...")
   val db = Database.forConfig("h2mem1")
-  println("b")
+  println("done!")
 
   try {
-    println("c")
-
     // Connect with a table
     val files: TableQuery[Files] = TableQuery[Files]
-    println("d")
 
     // Insert some dummy data
     val setupTest: DBIO[Unit] = DBIO.seq(
       files.schema.create,
-      files += (0,13,37,"today","knockknock","txt","who's there"),
-      files += (1,14,37,"today","test_file","txt","test file who?")
+      files += (0, 13, 37, timestamp(), "knockknock", "txt", "who's there"),
+      files += (1, 14, 37, timestamp(), "test_file", "txt", "test file who?")
     )
-    println("e")
 
     // Execute
     val setupFuture = db.run(setupTest)
-    println("f")
 
-    // This is what I *WANT* to do
-    val f = setupFuture.map { _ =>
-      println("g")
+    // Print out the current data
+    val output1 = files.result.map(_.foreach {
+      case (id, userid, channelid, timestamp, filename, extension, content) =>
+        println(s"Q1: $id | $userid | $channelid | $timestamp | $filename.$extension : $content")
+    })
 
-      val output1 = db.run(files.result).map(_.foreach {
-        case (id, userid, channelid, timestamp, filename, extension, content) =>
-          println(s"Output_1: $id | $userid | $channelid | $timestamp | $filename.$extension : $content")
-      })
-      println("h")
+    val inABit = for {
+      insertSome <- db.run(files ++= Seq(
+        (2, 13, 37, timestamp(), "test02", "txt", "dummy text content"),
+        (3, 14, 37, timestamp(), "test03", "txt", "dummy text content"),
+        (4, 15, 37, timestamp(), "test04", "txt", "dummy text content")
+      ))
 
-    }.map { _ =>
+      _ = print("So apparently, print statements are allowed in for-comprehension, ")
+      _ = println("but ONLY if they're not on the first line.")
 
-      val insertSome: DBIO[Option[Int]] = files ++= Seq(
-        (2, 15, 37, "today", "test02", "txt", "dummy text content"),
-        (3, 15, 37, "today", "test03", "txt", "dummy text content"),
-        (4, 15, 37, "today", "test04", "txt", "dummy text content")
-      )
-      println("i")
+      insertSomeMore <- db.run(files ++= Seq(
+        (5, 17, 37, timestamp(), "test05", "txt", "dummy text content"),
+        (6, 14, 37, timestamp(), "test06", "txt", "dummy text content"),
+        (7, 13, 37, timestamp(), "test07", "txt", "dummy text content")
+      ))
 
-      val insertSomeMore: DBIO[Option[Int]] = files ++= Seq(
-        (5, 16, 37, "today", "test05", "txt", "dummy text content"),
-        (6, 16, 37, "today", "test06", "txt", "dummy text content"),
-        (7, 16, 37, "today", "test07", "txt", "dummy text content")
-      )
-      println("j")
+      // Print out the data again
+    } yield (insertSome, insertSomeMore)
 
-      db.run(insertSome)
-      println("k")
+    Await.result(inABit, Duration.Inf)
+    db.run(files.result.map(_.foreach {
+      case (id, userid, channelid, timestamp, filename, extension, content) =>
+        println(s"Q2: $id | $userid | $channelid | $timestamp | $filename.$extension : $content")
+    }))
 
-      db.run(insertSomeMore)
-      println("l")
+    // Let's modify some of the existing data
+//    println("o")
 
-    }.map { _ =>
-      println("m")
+    // Let's make some more complex queries
+//    println("p")
 
-      val output2 = db.run(files.result.map(_.foreach {
-        case (id, userid, channelid, timestamp, filename, extension, content) =>
-          println(s"Output_2: $id | $userid | $channelid | $timestamp | $filename.$extension : $content")
-      }))
-      println("n")
-
-    }
-    println("o")
-
-    Await.result(f, Duration.Inf)
-    println("p")
-
+    print("Closing database...")
   } finally db.close
-  println("z")
+  println("done!")
 }
