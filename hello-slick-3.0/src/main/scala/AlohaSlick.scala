@@ -2,10 +2,9 @@
   * Created by dalenwbrauner on 4/3/17.
   */
 
-import scala.concurrent.{Future, Await}
+import scala.concurrent.Await
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.Duration
-import slick.backend.DatabasePublisher
 import slick.driver.H2Driver.api._
 
 object AlohaSlick extends App {
@@ -16,10 +15,16 @@ object AlohaSlick extends App {
     s"$logDate @ $logTime"
   }
 
-  // Instantiate Database
-  print("Instantiating database...")
+  def printEach(sequence:Seq[(Int, Int, Int, String, String, String, String)], label:String): Unit = {
+    sequence.foreach {
+      case (id, userid, channelid, timestamp, filename, extension, content) =>
+        println(label + s" $id | $userid | $channelid | $timestamp | $filename.$extension : $content")
+    }
+  }
+
+  // Instantiate Database Connection
   val db = Database.forConfig("h2mem1")
-  println("done!")
+  println("Connected to Database!")
 
   try {
     // Connect with a table
@@ -33,14 +38,12 @@ object AlohaSlick extends App {
     )
 
     // Execute
-    val setupFuture = db.run(setupTest)
+    db.run(setupTest)
 
     // Print out the current data
-    val output1 = files.result.map(_.foreach {
-      case (id, userid, channelid, timestamp, filename, extension, content) =>
-        println(s"Q1: $id | $userid | $channelid | $timestamp | $filename.$extension : $content")
-    })
+    db.run(files.result).map(printEach(_,"Q1:"))
 
+    // Insert some more dummy data
     val inABit = for {
       insertSome <- db.run(files ++= Seq(
         (2, 13, 37, timestamp(), "test02", "txt", "dummy text content"),
@@ -48,31 +51,27 @@ object AlohaSlick extends App {
         (4, 15, 37, timestamp(), "test04", "txt", "dummy text content")
       ))
 
-      _ = print("So apparently, print statements are allowed in for-comprehension, ")
-      _ = println("but ONLY if they're not on the first line.")
-
       insertSomeMore <- db.run(files ++= Seq(
         (5, 17, 37, timestamp(), "test05", "txt", "dummy text content"),
         (6, 14, 37, timestamp(), "test06", "txt", "dummy text content"),
         (7, 13, 37, timestamp(), "test07", "txt", "dummy text content")
       ))
-
-      // Print out the data again
     } yield (insertSome, insertSomeMore)
 
+    // Spit it out again
     Await.result(inABit, Duration.Inf)
-    db.run(files.result.map(_.foreach {
-      case (id, userid, channelid, timestamp, filename, extension, content) =>
-        println(s"Q2: $id | $userid | $channelid | $timestamp | $filename.$extension : $content")
-    }))
+    db.run(files.result).map(printEach(_,"Q2:"))
 
-    // Let's modify some of the existing data
-//    println("o")
+    // Make some more interesting changes
+    val inBBit = for {
+      noMoreFourteen <- db.run(files.filter(_.userid === 14).delete)
+      gimmieThirteen <- db.run(files.sortBy(_.timestamp).filter(_.userid === 13).result)
+    } yield (noMoreFourteen, gimmieThirteen)
 
-    // Let's make some more complex queries
-//    println("p")
+    // Wait and spit it out again
+    Await.result(inBBit, Duration.Inf)
+    db.run(files.result).map(printEach(_,"Q3:"))
 
-    print("Closing database...")
   } finally db.close
-  println("done!")
+  println("Connection closed.")
 }
