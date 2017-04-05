@@ -2,19 +2,25 @@
   * Created by dalenwbrauner on 4/3/17.
   */
 
-import scala.concurrent.Await
+import scala.concurrent.{Await, Awaitable}
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.Duration
 import slick.driver.H2Driver.api._
 
 object AlohaSlick extends App {
+  val WeAreBlocking = true
 
+  /** Simplifies if + await statements **/
+  def waitMaybe(waitForMe:Awaitable[_]) = if (WeAreBlocking) Await.result(waitForMe,Duration.Inf)
+
+  /** Timestamp format for database entry **/
   def timestamp(): String = {
     val logDate = java.time.LocalDate.now
     val logTime = java.time.LocalTime.now
     s"$logDate @ $logTime"
   }
 
+  /** Format for printing database contents **/
   def printEach(sequence:Seq[(Int, Int, Int, String, String, String, String)], label:String): Unit = {
     sequence.foreach {
       case (id, userid, channelid, timestamp, filename, extension, content) =>
@@ -38,13 +44,14 @@ object AlohaSlick extends App {
     )
 
     // Execute
-    db.run(setupTest)
+    val justAMoment = db.run(setupTest)
+    waitMaybe(justAMoment)
 
     // Print out the current data
-    db.run(files.result).map(printEach(_,"Q1:"))
+    val justBMoment = db.run(files.result).map(printEach(_,"Q1:"))
 
     // Insert some more dummy data
-    val inABit = for {
+    val justCMoment = for {
       insertSome <- db.run(files ++= Seq(
         (2, 13, 37, timestamp(), "test02", "txt", "dummy text content"),
         (3, 14, 37, timestamp(), "test03", "txt", "dummy text content"),
@@ -59,19 +66,20 @@ object AlohaSlick extends App {
     } yield (insertSome, insertSomeMore)
 
     // Spit it out again
-    Await.result(inABit, Duration.Inf)
+    waitMaybe(justCMoment)
     db.run(files.result).map(printEach(_,"Q2:"))
 
     // Make some more interesting changes
-    val inBBit = for {
+    val justDMoment = for {
       noMoreFourteen <- db.run(files.filter(_.userid === 14).delete)
       gimmieThirteen <- db.run(files.sortBy(_.timestamp).filter(_.userid === 13).result)
     } yield (noMoreFourteen, gimmieThirteen)
 
     // Wait and spit it out again
-    Await.result(inBBit, Duration.Inf)
+    waitMaybe(justDMoment)
     db.run(files.result).map(printEach(_,"Q3:"))
 
+    waitMaybe(justBMoment)
   } finally db.close
   println("Connection closed.")
 }
