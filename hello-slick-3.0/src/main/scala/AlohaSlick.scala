@@ -24,7 +24,7 @@ object AlohaSlick extends App {
   def printEach(sequence:Seq[(Int, Int, Int, String, String, String, String)], label:String): Unit = {
     sequence.foreach {
       case (id, userid, channelid, timestamp, filename, extension, content) =>
-        println(label + s" $id | $userid | $channelid | $timestamp | $filename.$extension : $content")
+        println(label ++ s" $id | $userid | $channelid | $timestamp | $filename.$extension : $content")
     }
   }
 
@@ -37,64 +37,45 @@ object AlohaSlick extends App {
     val files: TableQuery[Files] = TableQuery[Files]
 
     // Kickstart with dummy data
-    val justAMoment = db.run(DBIO.seq(
+    val setupSchema = db.run(DBIO.seq(
       files.schema.create,
       files += (0, 13, 37, timestamp(), "knockknock", "txt", "who's there"),
       files += (1, 14, 37, timestamp(), "test_file", "txt", "test file who?")
     ))
 
     // Let's wait till we have an actual table, shall we?
+    waitMaybe(setupSchema)
+
+    val justAMoment = for {
+      // Insert dummy data
+      justBMoment <- db.run(files ++= Seq(
+        (2, 13, 37, timestamp(), "Favorite Color", "txt", "Green"),
+        (3, 14, 37, timestamp(), "Middle Name", "txt", "William"),
+        (4, 15, 37, timestamp(), "Favorite Sauce", "txt", "Szechuan")
+      ))
+
+      // Insert more dummy data
+      justCMoment <- db.run(files ++= Seq(
+        (5, 17, 37, timestamp(), "hey", "txt", "don't touch me"),
+        (6, 14, 37, timestamp(), "hey you", "txt", "don't touch me"),
+        (7, 13, 37, timestamp(), "i said hey you", "txt", "don't touch me")
+      ))
+
+      // Delete everything by user 14
+      justDMoment <- db.run(files.filter(_.userid === 14).delete)
+
+    } yield (justBMoment, justCMoment, justDMoment)
+
+    // When everything is said and done, print out database contents.
+    // There should be a MUCH better way to do this; for comprehension was not the answer.
     waitMaybe(justAMoment)
+    waitMaybe(db.run(files.result).map(printEach(_, "Everything:")))
 
-    // Insert some more dummy data
-    val justBMoment = db.run(files ++= Seq(
-        (2, 13, 37, timestamp(), "test02", "txt", "dummy text content"),
-        (3, 14, 37, timestamp(), "test03", "txt", "dummy text content"),
-        (4, 15, 37, timestamp(), "test04", "txt", "dummy text content")
-    ))
+    // Everything submitted by User 13 sorted by filename
+    waitMaybe(db.run(
+      files.sortBy(_.filename).filter(_.userid === 13).result
+    ).map(printEach(_,"DB Query:")))
 
-    val justCMoment = db.run(files ++= Seq(
-        (5, 17, 37, timestamp(), "test05", "txt", "dummy text content"),
-        (6, 14, 37, timestamp(), "test06", "txt", "dummy text content"),
-        (7, 13, 37, timestamp(), "test07", "txt", "dummy text content")
-    ))
-
-    // Make some more interesting changes
-    val justDMoment = db.run(files.filter(_.userid === 14).delete)
-    val justEMoment = db.run(files.sortBy(_.timestamp).filter(_.userid === 13).result)
-
-  /*
-    Okay, look, this shouldn't be hard.
-    When I run db.run() on each of the database operations, I get a Future.
-    After a db.run() is completed, I want to print out the database contents.
-
-    Unfortunately, the code is likely to close before it finishes printing.
-    All my versions of the code that do not do this involve EXCESSIVE blocking.
-  */
-
-    // Print contents after each change
-    justAMoment onSuccess { case _ =>
-      db.run(files.result).map(printEach(_, "Q1:"))
-    }
-
-    justBMoment onSuccess { case _ =>
-      db.run(files.result).map(printEach(_, "Q2:"))
-    }
-
-    justCMoment onSuccess { case _ =>
-      db.run(files.result).map(printEach(_, "Q3:"))
-    }
-
-    justDMoment onSuccess { case _ =>
-      db.run(files.result).map(printEach(_, "Q4:"))
-    }
-
-    justEMoment onSuccess { case _ =>
-      db.run(files.result).map(printEach(_, "Q5:"))
-    }
-
-    // How does *Scala* want me to do this?
-    // I just want my print statements to finish.
   } finally db.close
   println("Connection closed.")
 }
