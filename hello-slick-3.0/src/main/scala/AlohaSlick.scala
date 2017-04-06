@@ -2,7 +2,7 @@
   * Created by dalenwbrauner on 4/3/17.
   */
 
-import scala.concurrent.{Await, Awaitable}
+import scala.concurrent.{Await, Awaitable, Future}
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.Duration
 import slick.driver.H2Driver.api._
@@ -36,50 +36,65 @@ object AlohaSlick extends App {
     // Connect with a table
     val files: TableQuery[Files] = TableQuery[Files]
 
-    // Insert some dummy data
-    val setupTest: DBIO[Unit] = DBIO.seq(
+    // Kickstart with dummy data
+    val justAMoment = db.run(DBIO.seq(
       files.schema.create,
       files += (0, 13, 37, timestamp(), "knockknock", "txt", "who's there"),
       files += (1, 14, 37, timestamp(), "test_file", "txt", "test file who?")
-    )
+    ))
 
-    // Execute
-    val justAMoment = db.run(setupTest)
+    // Let's wait till we have an actual table, shall we?
     waitMaybe(justAMoment)
 
-    // Print out the current data
-    val justBMoment = db.run(files.result).map(printEach(_,"Q1:"))
-
     // Insert some more dummy data
-    val justCMoment = for {
-      insertSome <- db.run(files ++= Seq(
+    val justBMoment = db.run(files ++= Seq(
         (2, 13, 37, timestamp(), "test02", "txt", "dummy text content"),
         (3, 14, 37, timestamp(), "test03", "txt", "dummy text content"),
         (4, 15, 37, timestamp(), "test04", "txt", "dummy text content")
-      ))
+    ))
 
-      insertSomeMore <- db.run(files ++= Seq(
+    val justCMoment = db.run(files ++= Seq(
         (5, 17, 37, timestamp(), "test05", "txt", "dummy text content"),
         (6, 14, 37, timestamp(), "test06", "txt", "dummy text content"),
         (7, 13, 37, timestamp(), "test07", "txt", "dummy text content")
-      ))
-    } yield (insertSome, insertSomeMore)
-
-    // Spit it out again
-    waitMaybe(justCMoment)
-    db.run(files.result).map(printEach(_,"Q2:"))
+    ))
 
     // Make some more interesting changes
-    val justDMoment = for {
-      noMoreFourteen <- db.run(files.filter(_.userid === 14).delete)
-      gimmieThirteen <- db.run(files.sortBy(_.timestamp).filter(_.userid === 13).result)
-    } yield (noMoreFourteen, gimmieThirteen)
+    val justDMoment = db.run(files.filter(_.userid === 14).delete)
+    val justEMoment = db.run(files.sortBy(_.timestamp).filter(_.userid === 13).result)
 
-    // Wait and spit it out again
-    waitMaybe(justDMoment)
-    db.run(files.result).map(printEach(_,"Q3:"))
+  /*
+    Okay, look, this shouldn't be hard.
+    When I run db.run() on each of the database operations, I get a Future.
+    After a db.run() is completed, I want to print out the database contents.
 
-    waitMaybe(justBMoment)
+    Unfortunately, the code is likely to close before it finishes printing.
+    All my versions of the code that do not do this involve EXCESSIVE blocking.
+  */
+
+    // Print contents after each change
+    justAMoment onSuccess { case _ =>
+      db.run(files.result).map(printEach(_, "Q1:"))
+    }
+
+    justBMoment onSuccess { case _ =>
+      db.run(files.result).map(printEach(_, "Q2:"))
+    }
+
+    justCMoment onSuccess { case _ =>
+      db.run(files.result).map(printEach(_, "Q3:"))
+    }
+
+    justDMoment onSuccess { case _ =>
+      db.run(files.result).map(printEach(_, "Q4:"))
+    }
+
+    justEMoment onSuccess { case _ =>
+      db.run(files.result).map(printEach(_, "Q5:"))
+    }
+
+    // How does *Scala* want me to do this?
+    // I just want my print statements to finish.
   } finally db.close
   println("Connection closed.")
 }
