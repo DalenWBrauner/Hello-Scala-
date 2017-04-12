@@ -1,8 +1,11 @@
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
+import akka.http.scaladsl.marshalling.ToResponseMarshallable
+import akka.http.scaladsl.model.StatusCodes.BadRequest
 import akka.http.scaladsl.model._
-import akka.http.scaladsl.server.Directives._
+import akka.http.scaladsl.server.Directives.{pathPrefix, _}
 import akka.stream.ActorMaterializer
+
 import scala.io.StdIn
 
 object WebServer {
@@ -18,12 +21,18 @@ object WebServer {
         get {
           complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "<h1>Say hello to akka-http</h1>"))
         }
-      }
-      path("easy") {
+      } ~
+      path("simple") {
         get {
           complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "<h1>The problem is less with the pathing and more with the content itself</h1>"))
         }
-      }
+      } ~ pathPrefix("share") {
+        (get & path(Segment)) { request =>
+          complete {
+            HttpEntity(ContentTypes.`text/html(UTF-8)`, s"<h1>$request</h1>")
+            }
+          }
+        }
 
     val bindingFuture = Http().bindAndHandle(route, "localhost", 8080)
 
