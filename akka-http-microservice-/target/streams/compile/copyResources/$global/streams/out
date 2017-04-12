@@ -1,4 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/src/main/resources/public,/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/target/scala-2.11/classes/public)[0m
-[0m[[0mdebug[0m] [0m	(/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/src/main/resources/application.conf,/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/target/scala-2.11/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/src/main/resources/public/index.html,/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/target/scala-2.11/classes/public/index.html)[0m
