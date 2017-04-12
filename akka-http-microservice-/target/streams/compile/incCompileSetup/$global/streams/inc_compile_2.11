@@ -1,0 +1,424 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes
+compile options:
+4 items
+0 -> -unchecked
+1 -> -deprecation
+2 -> -encoding
+3 -> utf8
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+27 items
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/AkkaHttpMicroservice$.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/AkkaHttpMicroservice$delayedInit$body.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/AkkaHttpMicroservice.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpInfo$.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpInfo.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpPairSummary$.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpPairSummary.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpPairSummaryRequest$.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpPairSummaryRequest.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Protocols$$anonfun$1.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Protocols$$anonfun$2.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Protocols$$anonfun$3.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Protocols$class.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Protocols.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4$$anonfun$apply$5$$anonfun$apply$6.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4$$anonfun$apply$5.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$7$$anonfun$apply$8.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$7.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$fetchIpInfo$1$$anonfun$apply$1.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$fetchIpInfo$1$$anonfun$apply$2.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$fetchIpInfo$1.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$class.class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service.class
+binary dependencies:
+9 items
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.16.jar
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-10.0.1.jar
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.11/jars/akka-http-spray-json_2.11-10.0.1.jar
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http_2.11/jars/akka-http_2.11-10.0.1.jar
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.16.jar
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/.ivy2/cache/io.spray/spray-json_2.11/bundles/spray-json_2.11-1.3.2.jar
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /home/dalenwbrauner/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+27 items
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> AkkaHttpMicroservice
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> AkkaHttpMicroservice$
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> AkkaHttpMicroservice$delayedInit$body
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> IpInfo
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> IpInfo$
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> IpPairSummary
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> IpPairSummary$
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> IpPairSummaryRequest
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> IpPairSummaryRequest$
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Protocols
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Protocols$$anonfun$1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Protocols$$anonfun$2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Protocols$$anonfun$3
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Protocols$class
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$4
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$4$$anonfun$apply$3
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4$$anonfun$apply$5
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4$$anonfun$apply$5$$anonfun$apply$6
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$7
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$7$$anonfun$apply$8
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$fetchIpInfo$1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$fetchIpInfo$1$$anonfun$apply$1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$$anonfun$fetchIpInfo$1$$anonfun$apply$2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service$class
+used names:
+246 items
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> $conforms
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> &
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> &&
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> *
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> +
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> -
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ->
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> /
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> <init>
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ==
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> AbstractFunction2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> AbstractFunction5
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ActorMaterializer
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ActorSystem
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> AkkaHttpMicroservice
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Any
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> AnyRef
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> App
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ApplyConverter
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> BadRequest
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ClassManifestFactory
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Config
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ConfigFactory
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ConjunctionMagnet
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> DefaultJsonProtocol
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Directive
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Directives
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Double
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> DoubleJsonFormat
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> EarthRadius
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Either
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ExecutionContextExecutor
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Flow
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Future
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Get
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Http
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> HttpRequest
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> HttpResponse
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> IOException
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> IpInfo
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> IpPairSummary
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> IpPairSummaryRequest
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Join
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Left
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> LogSource
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Logging
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> LoggingAdapter
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> LoggingMagnet
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Marshaller
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Materializer
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> None
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> OK
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Option
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ParserSettings
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Predef
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Product
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Protocols
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> RequestBuilding
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Right
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> RouteResult
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> RoutingLog
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> RoutingSettings
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ScalaRunTime
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Segment
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Serializable
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Service
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Sink
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Source
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> SprayJsonSupport
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> StatusCodes
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> String
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> StringContext
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> StringJsonFormat
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> StringMarshaller
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ToResponseMarshallable
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> TupleOps
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Unmarshal
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Unmarshaller
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> _1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> _2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> _3
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> _4
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> _enhanceRouteWithConcatenation
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> _hashCode
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> _segmentStringToPathMatcher
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> _toString
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> a
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> actor
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> addByNameNullaryApply
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> addDirectiveApply
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> akka
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> apply
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> as
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> asInstanceOf
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> atan2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> b
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> bindAndHandle
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> c
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> calculateDistance
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> city
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> classType
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> client
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> com
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> complete
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> concurrent
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> config
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> cos
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> country
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> default
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> directives
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> dispatcher
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> distance
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> entity
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> eq
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> error
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> errorMessage
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> event
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> executor
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> failed
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> fetchIpInfo
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> flatMap
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> forRequestResponseFromMarker
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> fromActorSystem
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> fromAnyClass
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> fromDirective
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> fromStatusCodeAndValue
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> futureMarshaller
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> get
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> getClass
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> getInt
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> getString
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> hac1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> head
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> http
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> info1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> info2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> io
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ip
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ip1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ip1Info
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ip1InfoFuture
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ip2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ip2Info
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ip2InfoFuture
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ipApiConnectionFlow
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ipApiRequest
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ipInfo
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ipInfoFormat
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ipPairSummaryFormat
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ipPairSummaryRequest
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ipPairSummaryRequestFormat
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> isInstanceOf
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> java
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> join0P
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> json
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> jsonFormat2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> jsonFormat3
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> jsonFormat5
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> lat
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> lat1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> lat2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> liftMarshaller
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> load
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> logRequestResult
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> logger
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> lon
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> lon1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> lon2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> map
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> marshaller
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> marshallers
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> marshalling
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> materializer
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> math
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> messageUnmarshallerFromEntityUnmarshaller
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> model
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ne
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> optionFormat
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> outgoingConnection
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> package
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> path
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> pathPrefix
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> post
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> pow
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> qual$1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> qual$2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> query
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> reflect
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> request
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> response
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> route2HandlerFlow
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> routes
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> runWith
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> runtime
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> s
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> scala
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> scaladsl
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> server
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> settings
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> sin
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> single
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> spray
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> sprayJsonMarshaller
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> sprayJsonUnmarshaller
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> sprayjson
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> sqrt
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> status
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> stream
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> stringUnmarshaller
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> successful
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> system
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> to
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> toRadians
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> toString
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> typedProductIterator
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> typesafe
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> unmarshalling
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> util
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> via
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$10
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$11
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$12
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$13
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$14
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$15
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$16
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$17
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$18
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$19
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$2
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$20
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$3
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$4
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$5
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$6
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$7
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$8
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> x$9
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> zip
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ||
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> ~
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Δλ
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> Δφ
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> φ1
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> φ2
+product stamps:
+27 items
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/AkkaHttpMicroservice$.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/AkkaHttpMicroservice$delayedInit$body.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/AkkaHttpMicroservice.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpInfo$.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpInfo.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpPairSummary$.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpPairSummary.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpPairSummaryRequest$.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/IpPairSummaryRequest.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Protocols$$anonfun$1.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Protocols$$anonfun$2.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Protocols$$anonfun$3.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Protocols$class.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Protocols.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4$$anonfun$apply$5$$anonfun$apply$6.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4$$anonfun$apply$5.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$4.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$7$$anonfun$apply$8$$anonfun$apply$9.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$7$$anonfun$apply$8.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3$$anonfun$apply$7.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4$$anonfun$apply$3.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$4.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$fetchIpInfo$1$$anonfun$apply$1.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$fetchIpInfo$1$$anonfun$apply$2.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$$anonfun$fetchIpInfo$1.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service$class.class -> lastModified(1492004534000)
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/target/scala-2.11/classes/Service.class -> lastModified(1492004534000)
+source stamps:
+1 items
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> hash(d38179398eaf37f2fd7abaf974a8f4ff8ce9093d)
+binary stamps:
+9 items
+/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.16.jar -> lastModified(1482159145000)
+/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-10.0.1.jar -> lastModified(1482426160000)
+/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.11/jars/akka-http-spray-json_2.11-10.0.1.jar -> lastModified(1482426172000)
+/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http_2.11/jars/akka-http_2.11-10.0.1.jar -> lastModified(1482426167000)
+/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.16.jar -> lastModified(1482159211000)
+/home/dalenwbrauner/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar -> lastModified(1431099969000)
+/home/dalenwbrauner/.ivy2/cache/io.spray/spray-json_2.11/bundles/spray-json_2.11-1.3.2.jar -> lastModified(1430920873000)
+/home/dalenwbrauner/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1485187082000)
+class names:
+9 items
+/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.16.jar -> akka.event.Logging
+/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-10.0.1.jar -> akka.http.scaladsl.settings.RoutingSettings$
+/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.11/jars/akka-http-spray-json_2.11-10.0.1.jar -> akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
+/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http_2.11/jars/akka-http_2.11-10.0.1.jar -> akka.http.scaladsl.server.RoutingLog$
+/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.16.jar -> akka.stream.scaladsl.Flow$
+/home/dalenwbrauner/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar -> com.typesafe.config.Config
+/home/dalenwbrauner/.ivy2/cache/io.spray/spray-json_2.11/bundles/spray-json_2.11-1.3.2.jar -> spray.json.DefaultJsonProtocol
+/home/dalenwbrauner/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Product
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDgTKeyAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAtc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwo5GpV3QAGmlwUGFpclN1bW1hcnlSZXF1ZXN0Rm9ybWF0c3EAfgALrFz5qnQADlVuaXRKc29uRm9ybWF0c3EAfgALTAhk6HQACmxpc3RGb3JtYXRzcQB+AAtZKp0TdAAMdmVjdG9yRm9ybWF0c3EAfgALxXXbF3QABnN5c3RlbXNxAH4ACwpwfFJ0ABJSb290SnNPYmplY3RGb3JtYXRzcQB+AAsZ72lTdAARQm9vbGVhbkpzb25Gb3JtYXRzcQB+AAulrIa8dAAJc2V0Rm9ybWF0c3EAfgALvhnRg3QAEVJvb3RKc0FycmF5Rm9ybWF0c3EAfgALWMQUMXQADUpzVmFsdWVGb3JtYXRzcQB+AAvofkF+dAAOTG9uZ0pzb25Gb3JtYXRzcQB+AAtZRcupdAAMdHVwbGUxRm9ybWF0c3EAfgALxj6C/HQAEGluZGV4ZWRTZXFGb3JtYXRzcQB+AAuw0ckxdAAMb3B0aW9uRm9ybWF0c3EAfgALB+JsQXQAD2xpbmVhclNlcUZvcm1hdHNxAH4AC0Wu6MZ0ABBTeW1ib2xKc29uRm9ybWF0c3EAfgALg5zhJnQADHR1cGxlNUZvcm1hdHNxAH4AC3G/weR0AAx0dXBsZTNGb3JtYXRzcQB+AAtRfq2odAASaW1tTGluZWFyU2VxRm9ybWF0c3EAfgAL2UlVy3QADHR1cGxlN0Zvcm1hdHNxAH4AC5XXsrB0AAxpbW1TZXRGb3JtYXRzcQB+AAtJ/v3fdAAMZWl0aGVyRm9ybWF0c3EAfgALGFv7+HQADkNoYXJKc29uRm9ybWF0c3EAfgAL8FTECHQAFEJpZ0RlY2ltYWxKc29uRm9ybWF0c3EAfgAL9RW3nXQAD1Nob3J0SnNvbkZvcm1hdHNxAH4AC2qbwMl0AAx0dXBsZTZGb3JtYXRzcQB+AAtV6cYLdAAQU3RyaW5nSnNvbkZvcm1hdHNxAH4AC4oMARZ0AAthcnJheUZvcm1hdHNxAH4AC22ldQh0AAxpcEluZm9Gb3JtYXRzcQB+AAulPfSZdAARaW1tSXRlcmFibGVGb3JtYXRzcQB+AAtcffgVdAAOQnl0ZUpzb25Gb3JtYXRzcQB+AAvJL4S8dAAMbWF0ZXJpYWxpemVyc3EAfgALeCPuz3QADHR1cGxlMkZvcm1hdHNxAH4AC1/ywXt0ABNpbW1JbmRleGVkU2VxRm9ybWF0c3EAfgALny9T7nQAE2lwUGFpclN1bW1hcnlGb3JtYXRzcQB+AAv9Z/x0dAAIZXhlY3V0b3JzcQB+AAvj5JmNdAAMaW1tU2VxRm9ybWF0c3EAfgALKpweqXQADHR1cGxlNEZvcm1hdHNxAH4ACyuYfbN0AA9GbG9hdEpzb25Gb3JtYXRzcQB+AAvOOcitdAAOaXRlcmFibGVGb3JtYXRzcQB+AAu0U+oedAANSW50SnNvbkZvcm1hdHNxAH4AC3g/Of50ABBEb3VibGVKc29uRm9ybWF0c3EAfgALLU7pjXQACW1hcEZvcm1hdHNxAH4AC7t6sbt0AAlzZXFGb3JtYXRzcQB+AAs1Dqa3dAAQQmlnSW50SnNvbkZvcm1hdHVxAH4ACQAAAGRzcQB+AAu2zs7edAAGbm90aWZ5c3EAfgALsISe1XQAA2lwMXNxAH4AC2kIF250AARyZWFkc3EAfgALnslo43QACWZyb21GaWVsZHNxAH4AC/z2C010AAtqc29uRm9ybWF0OXNxAH4AC9RPRD10AAd1bmFwcGx5c3EAfgALDtFV2XQABGNpdHlzcQB+AAslY3tLdAAManNvbkZvcm1hdDE2c3EAfgALM2oB93QAFEFra2FIdHRwTWljcm9zZXJ2aWNlc3EAfgALGjGSg3QADGpzb25Gb3JtYXQyMHNxAH4ACyYgTvt0AAR3YWl0c3EAfgALs6Qz+nQABnZpYVNlcXNxAH4AC3wGB4l0AApsYXp5Rm9ybWF0c3EAfgAL681jr3QADmNvcHkkZGVmYXVsdCQyc3EAfgALqxEsZ3QADSRhc0luc3RhbmNlT2ZzcQB+AAuvQVcQdAAManNvbkZvcm1hdDEyc3EAfgALyYIuCXQADGpzb25Gb3JtYXQxM3NxAH4AC0yaNV10AAZsb2dnZXJzcQB+AAuKLLUWdAAGcm91dGVzc3EAfgALrRBi9XQAC2pzb25Gb3JtYXQyc3EAfgALpyxK8nQADmNvcHkkZGVmYXVsdCQ1c3EAfgAL5jPcAHQADHByb2R1Y3RBcml0eXNxAH4AC3ibrg10AAZlcXVhbHNzcQB+AAteMQjfdAALanNvbkZvcm1hdDZzcQB+AAtCBy3qdAAMaXBBcGlSZXF1ZXN0c3EAfgALeAatnHQADGFzSW5zdGFuY2VPZnNxAH4AC9q4OP50AA5leGVjdXRpb25TdGFydHNxAH4AC0+Vv9t0AAxqc29uRm9ybWF0MTVzcQB+AAv7GrzcdAACSkZzcQB+AAu7b8x6dAAMc3luY2hyb25pemVkc3EAfgALJioUOXQAA2lwMnNxAH4AC3Eh9+F0AAxqc29uRm9ybWF0MTFzcQB+AAtyqQJVdAANJGlzSW5zdGFuY2VPZnNxAH4AC3p63KF0AAtqc29uRm9ybWF0NXNxAH4AC3qlEtB0AAxqc29uRm9ybWF0MjFzcQB+AAvwcSeRdAAUcHJvZHVjdEVsZW1lbnQyRmllbGRzcQB+AAt7kbMLdAAKcm9vdEZvcm1hdHNxAH4AC1mCPUt0AAVxdWVyeXNxAH4ACy+l3890AB5wcm9kdWN0RWxlbWVudDJGaWVsZCRkZWZhdWx0JDRzcQB+AAviyXrcdAAManNvbkZvcm1hdDE0c3EAfgALUeQHnXQAC2ZldGNoSXBJbmZvc3EAfgAL5iIBFnQACGNhbkVxdWFsc3EAfgALK16yNXQAC2pzb25Gb3JtYXQxc3EAfgAL6TipQXQABmNvbmZpZ3NxAH4ACzf3W5d0AAdjb3VudHJ5c3EAfgALoaFyInQADnJvb3RKc29uRm9ybWF0c3EAfgALyL+RmnQADmNvcHkkZGVmYXVsdCQ0c3EAfgALTaHBBHQABG1haW5zcQB+AAv0ROavdAANcHJvZHVjdFByZWZpeHNxAH4AC6VgQKl0AAxqc29uRm9ybWF0MTlzcQB+AAuv3WNvdAAJbm90aWZ5QWxsc3EAfgALYUn99HQACGRlbGVnYXRlc3EAfgALkyudbHQAE2lwQXBpQ29ubmVjdGlvbkZsb3dzcQB+AAstoepGdAAMaXNJbnN0YW5jZU9mc3EAfgAL0ZRy6XQAB1NlcnZpY2VzcQB+AAs3eEqKdAAGPGluaXQ+c3EAfgAL6fxX4nQACHJlYWRTb21lc3EAfgALXNx/eHQABWFwcGx5c3EAfgALpmmf0HQAC2pzb25Gb3JtYXQ0c3EAfgALsDibynQAAj09c3EAfgALpBR4hHQADUlwUGFpclN1bW1hcnlzcQB+AAs/x0DDdAAFY2xvbmVzcQB+AAvFQgo2dAAManNvbkZvcm1hdDEwc3EAfgALmRSKjXQAC2pzb25Gb3JtYXQwc3EAfgALPb86YHQADGpzb25Gb3JtYXQyMnNxAH4AC09QNyd0AAxPcHRpb25Gb3JtYXRzcQB+AAv5gR11dAAManNvbkZvcm1hdDE4c3EAfgALx3d0t3QABiRpbml0JHNxAH4ACy9ARc90AA5jb3B5JGRlZmF1bHQkM3NxAH4ACzPzbV10AARjb3B5c3EAfgAL5EU6VHQAA2xvbnNxAH4ACwoT2iF0AAh0b1N0cmluZ3NxAH4AC3CoyOV0AARhcmdzc3EAfgAL0HK4QnQACmpzb25Gb3JtYXRzcQB+AAvSwUnRdAACIT1zcQB+AAsx1+1edAALanNvbkZvcm1hdDhzcQB+AAvmqekSdAAHaXAySW5mb3NxAH4AC4Bsk3R0AAhnZXRDbGFzc3NxAH4ACxvlKDV0AAlQcm90b2NvbHNzcQB+AAsmCF4odAAOY29weSRkZWZhdWx0JDFzcQB+AAtGp56PdAAHaXAxSW5mb3NxAH4AC7wnZyV0AAJuZXNxAH4AC0mxoCN0AARsaWZ0c3EAfgAL9ATxPHQAC2pzb25Gb3JtYXQzc3EAfgAL/e1Md3QAAmVxc3EAfgAL2xA5ynQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4AC0RFv9d0AAV3cml0ZXNxAH4ACyncbux0AAhkaXN0YW5jZXNxAH4AC/YY8D90AANsYXRzcQB+AAtTI7E7dAAUSXBQYWlyU3VtbWFyeVJlcXVlc3RzcQB+AAujWCY+dAAKc2FmZVJlYWRlcnNxAH4ACznE+IV0AAtkZWxheWVkSW5pdHNxAH4ACwTR0al0AAIjI3NxAH4AC0xiOat0AAhmaW5hbGl6ZXNxAH4AC9elpdx0AA5wcm9kdWN0RWxlbWVudHNxAH4AC4yykvF0AAhoYXNoQ29kZXNxAH4ACxhLtIx0ABFleHRyYWN0RmllbGROYW1lc3NxAH4AC9wUMpp0AAxqc29uRm9ybWF0MTdzcQB+AAt9paZvdAAGSXBJbmZvc3EAfgALcOfGanQAC2pzb25Gb3JtYXQ3c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAB3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4BOXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgEtdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AVBzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4BOUwACWluaGVyaXRlZHEAfgE5TAAHcGFyZW50c3EAfgE5eHEAfgFVc3EAfgFQdXEAfgE0AAAAAHNxAH4BUHVxAH4BNAAAAABzcQB+AVB1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AVR0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AVRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AW5zcQB+AWFxAH4BZHNxAH4BZXNxAH4BaHVxAH4BawAAAANzcQB+AW10AARqYXZhc3EAfgFtdAACaW9xAH4BcnNxAH4BYXQAB1Byb2R1Y3RxAH4BZ3NxAH4BYXQABkVxdWFsc3EAfgFnc3EAfgFhdAAGT2JqZWN0c3EAfgFlc3EAfgFodXEAfgFrAAAAA3NxAH4BbXEAfgF4c3EAfgFtdAAEbGFuZ3EAfgFyc3EAfgFhdAADQW55cQB+AWdzcQB+ATZxAH4BQ3VxAH4BRAAAAABzcQB+AUYAcQB+ARt1cQB+AUgAAAAAcQB+AUx1cQB+AU4AAAAAc3EAfgFQcQB+AVZzcQB+AVBzcQB+AVhzcQB+AVB1cQB+ATQAAAAAc3EAfgFQdXEAfgE0AAAAAHNxAH4BUHVxAH4BXwAAAAZzcQB+AWFxAH4BZHNxAH4BZXNxAH4BaHVxAH4BawAAAAJzcQB+AW1xAH4BcHEAfgFyc3EAfgFhcQB+AWRzcQB+AWVzcQB+AWh1cQB+AWsAAAADc3EAfgFtcQB+AXhzcQB+AW10AAJpb3EAfgFyc3EAfgFhcQB+AXxxAH4BmHNxAH4BYXQABkVxdWFsc3EAfgGYc3EAfgFhcQB+AYBzcQB+AWVzcQB+AWh1cQB+AWsAAAADc3EAfgFtcQB+AXhzcQB+AW1xAH4BhnEAfgFyc3EAfgFhcQB+AYhxAH4BmHNxAH4BNnEAfgFDdXEAfgFEAAAAAHNxAH4BRgBxAH4A4XVxAH4BSAAAAABxAH4BTHVxAH4BTgAAAABzcQB+AVBxAH4BVnNxAH4BUHNxAH4BWHNxAH4BUHVxAH4BNAAAAABzcQB+AVB1cQB+ATQAAAAAc3EAfgFQdXEAfgFfAAAABnNxAH4BYXEAfgFkc3EAfgFlc3EAfgFodXEAfgFrAAAAAnNxAH4BbXEAfgFwcQB+AXJzcQB+AWFxAH4BZHNxAH4BZXNxAH4BaHVxAH4BawAAAANzcQB+AW1xAH4BeHNxAH4BbXQAAmlvcQB+AXJzcQB+AWFxAH4BfHEAfgG8c3EAfgFhdAAGRXF1YWxzcQB+AbxzcQB+AWFxAH4BgHNxAH4BZXNxAH4BaHVxAH4BawAAAANzcQB+AW1xAH4BeHNxAH4BbXEAfgGGcQB+AXJzcQB+AWFxAH4BiHEAfgG8c3EAfgE2cQB+AUN1cQB+AUQAAAAAc3EAfgFGAHQADUlwUGFpclN1bW1hcnl1cQB+AUgAAAAAfnEAfgFKdAAGTW9kdWxldXEAfgFOAAAAAHNxAH4BUHEAfgFWc3EAfgFQc3EAfgFYc3EAfgFQdXEAfgE0AAAAAHNxAH4BUHVxAH4BNAAAAABzcQB+AVB1cQB+AV8AAAAEc3EAfgFhcQB+AWRzcQB+AWVzcQB+AWh1cQB+AWsAAAACc3EAfgFtcQB+AXBxAH4BcnNxAH4BYXEAfgFkc3EAfgFlc3EAfgFodXEAfgFrAAAAA3NxAH4BbXEAfgF4c3EAfgFtdAACaW9xAH4BcnNxAH4BYXEAfgGAc3EAfgFlc3EAfgFodXEAfgFrAAAAA3NxAH4BbXEAfgF4c3EAfgFtcQB+AYZxAH4BcnNxAH4BYXEAfgGIcQB+AeNzcQB+ATZxAH4BQ3VxAH4BRAAAAABzcQB+AUYBcQB+AQV1cQB+AUgAAAAAfnEAfgFKdAAFVHJhaXR1cQB+AU4AAAAAc3EAfgFQcQB+AVZzcQB+AVBzcQB+AVhzcQB+AVB1cQB+ATQAAAAAc3EAfgFQdXEAfgE0AAAAAHNxAH4BUHVxAH4BXwAAAAlzcQB+AWF0ABNEZWZhdWx0SnNvblByb3RvY29sc3EAfgFlc3EAfgFodXEAfgFrAAAAA3NxAH4BbXQABXNwcmF5c3EAfgFtdAAEanNvbnEAfgFyc3EAfgFhdAARQWRkaXRpb25hbEZvcm1hdHNxAH4CB3NxAH4BYXQADlByb2R1Y3RGb3JtYXRzcQB+AgdzcQB+AWF0ABdQcm9kdWN0Rm9ybWF0c0luc3RhbmNlc3EAfgIHc3EAfgFhdAARQ29sbGVjdGlvbkZvcm1hdHNxAH4CB3NxAH4BYXQAD1N0YW5kYXJkRm9ybWF0c3EAfgIHc3EAfgFhdAAMQmFzaWNGb3JtYXRzcQB+AgdzcQB+AWFxAH4BgHNxAH4BZXNxAH4BaHVxAH4BawAAAANzcQB+AW1xAH4BeHNxAH4BbXEAfgGGcQB+AXJzcQB+AWFxAH4BiHNxAH4BZXNxAH4BaHVxAH4BawAAAAJzcQB+AW1xAH4BcHEAfgFyc3EAfgE2cQB+AUN1cQB+AUQAAAAAc3EAfgFGAXEAfgDVdXEAfgFIAAAAAHEAfgH5dXEAfgFOAAAAAHNxAH4BUHEAfgFWc3EAfgFQc3EAfgFYc3EAfgFQdXEAfgE0AAAAAHNxAH4BUHVxAH4BNAAAAABzcQB+AVB1cQB+AV8AAAAKc3EAfgFhdAAJUHJvdG9jb2xzc3EAfgFlc3EAfgFodXEAfgFrAAAAAXEAfgFyc3EAfgFhdAATRGVmYXVsdEpzb25Qcm90b2NvbHNxAH4BZXNxAH4BaHVxAH4BawAAAANzcQB+AW10AAVzcHJheXNxAH4BbXQABGpzb25xAH4BcnNxAH4BYXQAEUFkZGl0aW9uYWxGb3JtYXRzcQB+AjpzcQB+AWF0AA5Qcm9kdWN0Rm9ybWF0c3EAfgI6c3EAfgFhdAAXUHJvZHVjdEZvcm1hdHNJbnN0YW5jZXNxAH4COnNxAH4BYXQAEUNvbGxlY3Rpb25Gb3JtYXRzcQB+AjpzcQB+AWF0AA9TdGFuZGFyZEZvcm1hdHNxAH4COnNxAH4BYXQADEJhc2ljRm9ybWF0c3EAfgI6c3EAfgFhcQB+AYBzcQB+AWVzcQB+AWh1cQB+AWsAAAADc3EAfgFtcQB+AXhzcQB+AW1xAH4BhnEAfgFyc3EAfgFhcQB+AYhzcQB+AWVzcQB+AWh1cQB+AWsAAAACc3EAfgFtcQB+AXBxAH4BcnNxAH4BNnEAfgFDdXEAfgFEAAAAAHNxAH4BRgBxAH4AeXVxAH4BSAAAAABxAH4B1nVxAH4BTgAAAAJ0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3QAEHNjYWxhLmRlcHJlY2F0ZWRzcQB+AVBxAH4BVnNxAH4BUHNxAH4BWHNxAH4BUHVxAH4BNAAAAABzcQB+AVB1cQB+ATQAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+ATpxAH4BQ3VxAH4BRAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+Amd4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgAMTAAFdmFsdWVxAH4ADHhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3EAfgFhdAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcQB+AWVzcQB+AWh1cQB+AWsAAAACc3EAfgFtcQB+AXBxAH4BcnNxAH4BRgBxAH4Ax3VxAH4BSAAAAABzcQB+AWF0AARVbml0cQB+AnZ1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADEwAA3RwZXEAfgJneHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgFLdAAFUGxhaW5xAH4A+XNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4BYlsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4BVHNxAH4BYXQABUFycmF5cQB+AnZ1cQB+AV8AAAABc3EAfgFhdAAGU3RyaW5nc3EAfgFlc3EAfgFodXEAfgFrAAAAA3NxAH4BbXEAfgF4c3EAfgFtcQB+AYZxAH4BcnNxAH4BUHVxAH4BXwAAAA1zcQB+AWF0AAdTZXJ2aWNlc3EAfgFlc3EAfgFodXEAfgFrAAAAAXEAfgFyc3EAfgFhdAAJUHJvdG9jb2xzcQB+ApxzcQB+AWF0ABNEZWZhdWx0SnNvblByb3RvY29sc3EAfgFlc3EAfgFodXEAfgFrAAAAA3NxAH4BbXQABXNwcmF5c3EAfgFtdAAEanNvbnEAfgFyc3EAfgFhdAARQWRkaXRpb25hbEZvcm1hdHNxAH4Co3NxAH4BYXQADlByb2R1Y3RGb3JtYXRzcQB+AqNzcQB+AWF0ABdQcm9kdWN0Rm9ybWF0c0luc3RhbmNlc3EAfgKjc3EAfgFhdAARQ29sbGVjdGlvbkZvcm1hdHNxAH4Co3NxAH4BYXQAD1N0YW5kYXJkRm9ybWF0c3EAfgKjc3EAfgFhdAAMQmFzaWNGb3JtYXRzcQB+AqNzcQB+AWF0AANBcHBxAH4CdnNxAH4BYXQAC0RlbGF5ZWRJbml0cQB+AnZzcQB+AWFxAH4BgHEAfgKTc3EAfgFhcQB+AYhxAH4CdnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbYmZOWnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AFwvaG9tZS9kYWxlbndicmF1bmVyL0dpdC9IZWxsby1TY2FsYS0vYWtrYS1odHRwLW1pY3Jvc2VydmljZS1tYXN0ZXIvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFNOBeTmOrzfy/Xq6+XSo9P+M6Qk9
+external apis:
+0 items
+source infos:
+1 items
+/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/src/main/scala/AkkaHttpMicroservice.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW2JmTlp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXC9ob21lL2RhbGVud2JyYXVuZXIvR2l0L0hlbGxvLVNjYWxhLS9ha2thLWh0dHAtbWljcm9zZXJ2aWNlLW1hc3Rlci90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
