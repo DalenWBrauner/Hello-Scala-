@@ -17,7 +17,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.theiterators#akka-http-microservice_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.theiterators#akka-http-microservice_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bf4cfc6[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bf84976[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
@@ -1309,7 +1309,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 377ms :: artifacts dl 13ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 716ms :: artifacts dl 28ms[0m
 [0m[[0mdebug[0m] [0m	report for com.theiterators#akka-http-microservice_2.11;1.0 universal produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/target/resolution-cache/reports/com.theiterators-akka-http-microservice_2.11-universal.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.theiterators#akka-http-microservice_2.11;1.0 universal-docs produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/target/resolution-cache/reports/com.theiterators-akka-http-microservice_2.11-universal-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.theiterators#akka-http-microservice_2.11;1.0 universal-src produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/target/resolution-cache/reports/com.theiterators-akka-http-microservice_2.11-universal-src.xml[0m
@@ -1331,5 +1331,5 @@
 [0m[[0mdebug[0m] [0m	report for com.theiterators#akka-http-microservice_2.11;1.0 docs produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/target/resolution-cache/reports/com.theiterators-akka-http-microservice_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.theiterators#akka-http-microservice_2.11;1.0 pom produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/target/resolution-cache/reports/com.theiterators-akka-http-microservice_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.theiterators#akka-http-microservice_2.11;1.0 scala-tool produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/target/resolution-cache/reports/com.theiterators-akka-http-microservice_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (377ms resolve - 13ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (716ms resolve - 28ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

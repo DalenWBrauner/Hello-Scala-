@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile-internal"
 		confs="universal, universal-docs, universal-src, windows, docker, compile, runtime, test, provided, optional, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170412095242"/>
+		date="20170412170315"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-http-testkit_2.11">
 			<revision name="10.0.1" status="release" pubdate="20161222120250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
