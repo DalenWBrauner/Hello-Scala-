@@ -7,65 +7,65 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="universal, universal-docs, universal-src, windows, docker, compile, runtime, test, provided, optional, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170412094156"/>
+		date="20170412095242"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-http-testkit_2.11">
-			<revision name="10.0.1" status="release" pubdate="20161222120250" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+			<revision name="10.0.1" status="release" pubdate="20161222120250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
-				<metadata-artifact status="successful" details="" size="2810" time="172" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/ivy-10.0.1.xml" searched="true" original-local-location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/ivy-10.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.11/10.0.1/akka-http-testkit_2.11-10.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="3321" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/ivy-10.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.11/10.0.1/akka-http-testkit_2.11-10.0.1.pom"/>
 				<caller organisation="com.theiterators" name="akka-http-microservice_2.11" conf="compile, runtime-internal, runtime, optional" rev="10.0.1" rev-constraint-default="10.0.1" rev-constraint-dynamic="10.0.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-http-testkit_2.11" type="jar" ext="jar" status="successful" details="" size="126261" time="171" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/jars/akka-http-testkit_2.11-10.0.1.jar">
+					<artifact name="akka-http-testkit_2.11" type="jar" ext="jar" status="no" details="" size="126261" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.11/jars/akka-http-testkit_2.11-10.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.11/10.0.1/akka-http-testkit_2.11-10.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-http-spray-json_2.11">
-			<revision name="10.0.1" status="release" pubdate="20161222120252" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+			<revision name="10.0.1" status="release" pubdate="20161222120252" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
-				<metadata-artifact status="successful" details="" size="2401" time="158" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.11/ivy-10.0.1.xml" searched="true" original-local-location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.11/ivy-10.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.11/10.0.1/akka-http-spray-json_2.11-10.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="3084" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.11/ivy-10.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.11/10.0.1/akka-http-spray-json_2.11-10.0.1.pom"/>
 				<caller organisation="com.theiterators" name="akka-http-microservice_2.11" conf="compile, runtime-internal, runtime, optional" rev="10.0.1" rev-constraint-default="10.0.1" rev-constraint-dynamic="10.0.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-http-spray-json_2.11" type="jar" ext="jar" status="successful" details="" size="24192" time="162" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.11/jars/akka-http-spray-json_2.11-10.0.1.jar">
+					<artifact name="akka-http-spray-json_2.11" type="jar" ext="jar" status="no" details="" size="24192" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.11/jars/akka-http-spray-json_2.11-10.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.11/10.0.1/akka-http-spray-json_2.11-10.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-http_2.11">
-			<revision name="10.0.1" status="release" pubdate="20161222120245" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="9">
+			<revision name="10.0.1" status="release" pubdate="20161222120245" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="9">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
-				<metadata-artifact status="successful" details="" size="1991" time="159" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http_2.11/ivy-10.0.1.xml" searched="true" original-local-location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http_2.11/ivy-10.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.11/10.0.1/akka-http_2.11-10.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="2791" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http_2.11/ivy-10.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.11/10.0.1/akka-http_2.11-10.0.1.pom"/>
 				<caller organisation="com.theiterators" name="akka-http-microservice_2.11" conf="compile, runtime-internal, runtime, optional" rev="10.0.1" rev-constraint-default="10.0.1" rev-constraint-dynamic="10.0.1" callerrev="1.0"/>
 				<caller organisation="com.typesafe.akka" name="akka-http-spray-json_2.11" conf="default, compile, runtime, master" rev="10.0.1" rev-constraint-default="10.0.1" rev-constraint-dynamic="10.0.1" callerrev="10.0.1"/>
 				<caller organisation="com.typesafe.akka" name="akka-http-testkit_2.11" conf="default, compile, runtime, master" rev="10.0.1" rev-constraint-default="10.0.1" rev-constraint-dynamic="10.0.1" callerrev="10.0.1"/>
 				<artifacts>
-					<artifact name="akka-http_2.11" type="jar" ext="jar" status="successful" details="" size="2723047" time="310" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http_2.11/jars/akka-http_2.11-10.0.1.jar">
+					<artifact name="akka-http_2.11" type="jar" ext="jar" status="no" details="" size="2723047" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http_2.11/jars/akka-http_2.11-10.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.11/10.0.1/akka-http_2.11-10.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-http-core_2.11">
-			<revision name="10.0.1" status="release" pubdate="20161222120238" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+			<revision name="10.0.1" status="release" pubdate="20161222120238" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
-				<metadata-artifact status="successful" details="" size="3229" time="160" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/ivy-10.0.1.xml" searched="true" original-local-location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/ivy-10.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.0.1/akka-http-core_2.11-10.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="3568" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/ivy-10.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.0.1/akka-http-core_2.11-10.0.1.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-http_2.11" conf="default, compile, runtime, master" rev="10.0.1" rev-constraint-default="10.0.1" rev-constraint-dynamic="10.0.1" callerrev="10.0.1"/>
 				<artifacts>
-					<artifact name="akka-http-core_2.11" type="jar" ext="jar" status="successful" details="" size="3444964" time="353" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-10.0.1.jar">
+					<artifact name="akka-http-core_2.11" type="jar" ext="jar" status="no" details="" size="3444964" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/jars/akka-http-core_2.11-10.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.0.1/akka-http-core_2.11-10.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-stream-testkit_2.11">
-			<revision name="2.4.16" status="release" pubdate="20161219095516" resolver="public" artresolver="public" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.16" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+			<revision name="2.4.16" status="release" pubdate="20161219095516" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.16" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2687" time="156" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/ivy-2.4.16.xml" searched="true" original-local-location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/ivy-2.4.16.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.11/2.4.16/akka-stream-testkit_2.11-2.4.16.pom"/>
+				<metadata-artifact status="no" details="" size="3489" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/ivy-2.4.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.11/2.4.16/akka-stream-testkit_2.11-2.4.16.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-http-testkit_2.11" conf="default, compile, runtime, master" rev="2.4.16" rev-constraint-default="2.4.16" rev-constraint-dynamic="2.4.16" callerrev="10.0.1"/>
 				<artifacts>
-					<artifact name="akka-stream-testkit_2.11" type="jar" ext="jar" status="successful" details="" size="108330" time="164" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/jars/akka-stream-testkit_2.11-2.4.16.jar">
+					<artifact name="akka-stream-testkit_2.11" type="jar" ext="jar" status="no" details="" size="108330" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.11/jars/akka-stream-testkit_2.11-2.4.16.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.11/2.4.16/akka-stream-testkit_2.11-2.4.16.jar"/>
 					</artifact>
 				</artifacts>
@@ -84,39 +84,39 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-parsing_2.11">
-			<revision name="10.0.1" status="release" pubdate="20161222120231" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+			<revision name="10.0.1" status="release" pubdate="20161222120231" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
 				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
-				<metadata-artifact status="successful" details="" size="2027" time="155" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/ivy-10.0.1.xml" searched="true" original-local-location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/ivy-10.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.0.1/akka-parsing_2.11-10.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="2795" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/ivy-10.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.0.1/akka-parsing_2.11-10.0.1.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-http-core_2.11" conf="compile, runtime" rev="10.0.1" rev-constraint-default="10.0.1" rev-constraint-dynamic="10.0.1" callerrev="10.0.1"/>
 				<artifacts>
-					<artifact name="akka-parsing_2.11" type="jar" ext="jar" status="successful" details="" size="975222" time="219" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/jars/akka-parsing_2.11-10.0.1.jar">
+					<artifact name="akka-parsing_2.11" type="jar" ext="jar" status="no" details="" size="975222" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/jars/akka-parsing_2.11-10.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.0.1/akka-parsing_2.11-10.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-testkit_2.11">
-			<revision name="2.4.16" status="release" pubdate="20161219095326" resolver="public" artresolver="public" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.16" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="8">
+			<revision name="2.4.16" status="release" pubdate="20161219095326" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.16" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="8">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="3115" time="162" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/ivy-2.4.16.xml" searched="true" original-local-location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/ivy-2.4.16.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.16/akka-testkit_2.11-2.4.16.pom"/>
+				<metadata-artifact status="no" details="" size="3690" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/ivy-2.4.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.16/akka-testkit_2.11-2.4.16.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.11" conf="compile, runtime" rev="2.4.16" rev-constraint-default="2.4.16" rev-constraint-dynamic="2.4.16" callerrev="2.4.16"/>
 				<caller organisation="com.theiterators" name="akka-http-microservice_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.16" rev-constraint-default="2.4.16" rev-constraint-dynamic="2.4.16" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-testkit_2.11" type="jar" ext="jar" status="successful" details="" size="281532" time="173" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/jars/akka-testkit_2.11-2.4.16.jar">
+					<artifact name="akka-testkit_2.11" type="jar" ext="jar" status="no" details="" size="281532" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/jars/akka-testkit_2.11-2.4.16.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.16/akka-testkit_2.11-2.4.16.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-stream_2.11">
-			<revision name="2.4.16" status="release" pubdate="20161219095327" resolver="public" artresolver="public" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.16" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
+			<revision name="2.4.16" status="release" pubdate="20161219095327" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.16" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2649" time="159" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.16.xml" searched="true" original-local-location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.16.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.16/akka-stream_2.11-2.4.16.pom"/>
+				<metadata-artifact status="no" details="" size="3506" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.16/akka-stream_2.11-2.4.16.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-http-core_2.11" conf="compile, runtime" rev="2.4.16" rev-constraint-default="2.4.16" rev-constraint-dynamic="2.4.16" callerrev="10.0.1"/>
 				<caller organisation="com.typesafe.akka" name="akka-stream-testkit_2.11" conf="compile, runtime" rev="2.4.16" rev-constraint-default="2.4.16" rev-constraint-dynamic="2.4.16" callerrev="2.4.16"/>
 				<caller organisation="com.theiterators" name="akka-http-microservice_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.16" rev-constraint-default="2.4.16" rev-constraint-dynamic="2.4.16" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-stream_2.11" type="jar" ext="jar" status="successful" details="" size="4399851" time="409" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.16.jar">
+					<artifact name="akka-stream_2.11" type="jar" ext="jar" status="no" details="" size="4399851" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.16.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.16/akka-stream_2.11-2.4.16.jar"/>
 					</artifact>
 				</artifacts>
@@ -159,14 +159,14 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
-			<revision name="2.4.16" status="release" pubdate="20161219095221" resolver="public" artresolver="public" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.16" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+			<revision name="2.4.16" status="release" pubdate="20161219095221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.16" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2042" time="157" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.16.xml" searched="true" original-local-location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.16.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.16/akka-actor_2.11-2.4.16.pom"/>
+				<metadata-artifact status="no" details="" size="3102" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.16/akka-actor_2.11-2.4.16.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-stream_2.11" conf="default, compile, runtime, master" rev="2.4.16" rev-constraint-default="2.4.16" rev-constraint-dynamic="2.4.16" callerrev="2.4.16"/>
 				<caller organisation="com.typesafe.akka" name="akka-testkit_2.11" conf="default, compile, runtime, master" rev="2.4.16" rev-constraint-default="2.4.16" rev-constraint-dynamic="2.4.16" callerrev="2.4.16"/>
 				<caller organisation="com.theiterators" name="akka-http-microservice_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.16" rev-constraint-default="2.4.16" rev-constraint-dynamic="2.4.16" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="successful" details="" size="3336113" time="529" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.16.jar">
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="3336113" time="0" location="/home/dalenwbrauner/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.16.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.16/akka-actor_2.11-2.4.16.jar"/>
 					</artifact>
 				</artifacts>

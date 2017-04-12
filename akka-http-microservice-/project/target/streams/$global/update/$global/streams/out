@@ -1,21 +1,21 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/}akka-http-microservice-master-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#akka-http-microservice-master-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/}akka-http-microservice--build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#global-plugins;0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m	found org.scala-sbt#global-plugins;0.0 in inter-project[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving io.spray#sbt-revolver;0.8.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.spray#sbt-revolver;0.8.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#sbt-revolver;0.8.0[0m
 [0m[[0mdebug[0m] [0m	found io.spray#sbt-revolver;0.8.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.eed3si9n#sbt-assembly;0.14.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.14.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.14.3[0m
@@ -300,23 +300,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.pantsbuild#jarjar;1.6.0->org.apache.maven#maven-plugin-api;3.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.pantsbuild#jarjar;1.6.0->org.apache.maven#maven-plugin-api;3.3.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.pantsbuild#jarjar;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-native-packager;1.2.0-M7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-native-packager;1.2.0-M7 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-native-packager;1.2.0-M7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.sbt#sbt-native-packager;1.2.0-M7 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.sbt#sbt-native-packager;1.2.0-M7[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: found md file for com.typesafe.sbt#sbt-native-packager;1.2.0-M7[0m
-[0m[[0mdebug[0m] [0m		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/ivys/ivy.xml (1.2.0-M7)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/ivys/ivy.xml ...[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/ivys/ivy.xml.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;1.2.0-M7!ivy.xml(ivy.original) (847ms)[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-native-packager;1.2.0-M7 in sbt-plugin-releases[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbt#sbt-native-packager;1.2.0-M7[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-native-packager;1.2.0-M7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -347,12 +335,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.scalactic#scalactic_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -539,7 +527,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.pantsbuild#jarjar;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -560,13 +548,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.scalactic#scalactic_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -753,7 +741,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.pantsbuild#jarjar;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -774,12 +762,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.11 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.11 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.11[0m
@@ -1606,14 +1594,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.scalactic#scalactic_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -1800,7 +1788,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.pantsbuild#jarjar;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -1820,13 +1808,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
@@ -2439,13 +2427,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.scalactic#scalactic_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -2632,7 +2620,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.pantsbuild#jarjar;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -2652,16 +2640,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->io.spray#sbt-revolver;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.scalactic#scalactic_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -2848,7 +2836,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.pantsbuild#jarjar;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.2.0-M7 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}[0m
@@ -2868,13 +2856,13 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M7->org.apache.ant#ant;1.9.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
@@ -3487,18 +3475,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#akka-http-microservice-master-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->default][0m
@@ -3516,8 +3504,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#jline;2.10.6 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}[0m
@@ -3530,21 +3518,16 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#akka-http-microservice-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#sbt-revolver;0.8.0!sbt-revolver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.14.3!sbt-assembly.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/jars/sbt-native-packager.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/jars/sbt-native-packager.jar ...[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/jars/sbt-native-packager.jar[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/jars/sbt-native-packager.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M7/jars/sbt-native-packager.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;1.2.0-M7!sbt-native-packager.jar (3244ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbt#sbt-native-packager;1.2.0-M7!sbt-native-packager.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.pantsbuild#jarjar;1.6.0!jarjar.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar[0m
@@ -3618,19 +3601,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3662ms :: artifacts dl 3283ms[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT compile produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT runtime produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT test produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT provided produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT optional produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT compile-internal produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT runtime-internal produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT test-internal produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT plugin produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT sources produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT docs produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT pom produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#akka-http-microservice-master-build;0.1-SNAPSHOT scala-tool produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-master/project/target/resolution-cache/reports/default-akka-http-microservice-master-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (3662ms resolve - 3283ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2231ms :: artifacts dl 71ms[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT compile produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT runtime produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT test produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT provided produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT optional produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT compile-internal produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT runtime-internal produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT test-internal produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT plugin produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT sources produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT docs produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT pom produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for akka-http-microservice-build#akka-http-microservice-build;0.1-SNAPSHOT scala-tool produced in /home/dalenwbrauner/Git/Hello-Scala-/akka-http-microservice-/project/target/resolution-cache/reports/akka-http-microservice-build-akka-http-microservice-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2231ms resolve - 71ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
