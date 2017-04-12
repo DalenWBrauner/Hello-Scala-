@@ -33,10 +33,13 @@ object WebServer {
     } ~
       path("simple") {
         get {
-          complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "<h1>Okay, I think I'm getting the hang of this!</h1>"))
-//        } ~
-//        post {
-//            complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "<h1>Okay, I think I'm getting the hang of this!</h1>"))
+          complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "<h1>Okay, I think I'm GETting the hang of this!</h1>"))
+        } ~
+        post {
+            complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "I see that POST request...!"))
+        } ~
+        delete {
+          complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "I see that DELETE request...!"))
         }
       } ~ path("square" / IntNumber) { num =>
       get {
